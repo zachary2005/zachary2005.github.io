@@ -1,8 +1,6 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/zachary2005/RGUIBI.github.oi/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Hey I'm ZAKARIA! I am a research scientist on and also currently lead OpenAI's Multi-Agent Team. I am interested in environments that allow for unbounded learning, multi-agent reinforcement learning, and generalization to unseen environments (e.g. simulation to reality). So far I've worked on unsupervised multi-agent reinforcement learning, state estimation from vision, attention based network architectures for reinforcement learning, and most recently emergence from multi-agent autocurricula. I have an M.Eng. in Electrical Engineering and Computer Science with a focus in AI from MIT, and also a B.S. in EECS and Physics from MIT. During my masters I worked on neural network architecture search, a subfield at the intersection of meta-modeling and hyperparameter optimization.
 
 ### Markdown
 
