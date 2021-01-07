@@ -4,7 +4,7 @@
 Hey I'm ZAKARIA! I am a research scientist on and also currently lead LA-VETE Team. I am interested in the aplication of deep learning in medical imaging and smart hospital, multi-agent reinforcement learning, and generalization to unseen environments. So far I've worked on 
 supervised learning in medical context, and most recently emergence from reinforcement learning . I have an M.Eng. in biomedical Engineering and Computer Science with a focus in AI from UHP, and also a B.S. in IEEA and Physics from UCA. During my masters I worked on neural network architecture search, a subfield at the intersection of meta-modeling and hyperparameter optimization in the medical imaging segmentation task.
 
-### Markdown
+### News
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
