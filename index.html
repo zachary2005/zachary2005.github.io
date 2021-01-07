@@ -1,1 +1,125 @@
-dsd
+---
+layout: default
+title: Bowen Baker
+---
+<a id="about"></a>
+
+
+<div class=profile_div>
+  <div class=profile_image>
+    <img src='assets/profile.jpg'>
+  </div>
+  <p class=profile_text> Hey I'm Bowen! I am a research scientist on and also currently lead OpenAI's Multi-Agent Team. I am interested in environments that allow for unbounded learning, multi-agent reinforcement learning, and generalization to unseen environments (e.g. simulation to reality). So far I've worked on unsupervised multi-agent reinforcement learning, state estimation from vision, attention based network architectures for reinforcement learning, and most recently emergence from multi-agent autocurricula. I have an M.Eng. in Electrical Engineering and Computer Science with a focus in AI from MIT, and also a B.S. in EECS and Physics from MIT. During my masters I worked on neural network architecture search, a subfield at the intersection of meta-modeling and hyperparameter optimization.</p>
+</div>
+
+<a id="news"></a>
+<h1 class=section-title>
+  News
+</h1>
+
+<div class="posts">
+  {% for post in site.categories.news %}
+  <div class="news">
+    <div class="post-date">{{ post.date | date_to_string }}</div>
+    <div class="news-content">
+      {{ post.content }}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<a id="publications"></a>
+<h1 class=section-title>
+  Publications
+</h1>
+
+<div class="posts">
+  {% for post in site.categories.publications %}
+  <div class="post">
+    <h3 class="pub-title">
+        <a href={{post.titlelink}}>{{ post.title }}</a>
+    </h3>
+    <h2 class="authors">
+      {{ post.authors }}
+    </h2>
+    <h2 class="venue">
+      {{ post.venue }}
+    </h2>
+    <div class='extras'>
+      {% if post.arxiv %}
+        <a href={{post.arxiv}}>arXiv</a>
+      {% endif %}
+      {% if post.blog %}
+        / <a href={{post.blog}}>blog</a>
+      {% endif %}
+      {% if post.code %}
+        / <a href={{post.code}}> code </a>
+      {% endif %}
+    </div>
+
+    <!-- <span class="post-date">{{ post.date | date_to_string }}</span> -->
+    <div class='abstract'>
+    {{ post.content }}
+    </div>
+  </div>
+  <hr>
+  {% endfor %}
+</div>
+
+<!-- <a id="research"></a>
+<h1 class=section-title>
+  Research
+</h1>
+
+<div class="posts">
+  {% for post in site.categories.research %}
+  <div class="post">
+    <h3 class="post-title">
+        {{ post.title }}
+    </h3>
+
+    {{ post.content }}
+  </div>
+  <hr>
+  {% endfor %}
+</div> -->
+
+<a id="industry"></a>
+<h1 class=section-title>
+  Industry
+</h1>
+
+<div class="posts">
+  {% for post in site.categories.industry %}
+  <div class="post">
+    <h3 class="post-title">
+        {{ post.title }}
+    </h3>
+
+    <!-- <span class="post-date">{{ post.date | date_to_string }}</span> -->
+
+    {{ post.content }}
+  </div>
+  <hr>
+  {% endfor %}
+</div>
+
+<a id="projects"></a>
+<h1 class=section-title>
+  Projects
+</h1>
+
+<div class="posts">
+  {% for post in site.categories.projects %}
+  <div class="post">
+    <h3 class="post-title">
+        {{ post.title }}
+    </h3>
+
+    <!-- <span class="post-date">{{ post.date | date_to_string }}</span> -->
+
+    {{ post.content }}
+  </div>
+  <hr>
+  {% endfor %}
+</div>
